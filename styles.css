@@ -1,0 +1,135 @@
+body {
+	padding-top: 75px;
+}
+nav, .verde {
+	background-color: #032E00;
+}
+.historia {
+	background-image: url(img/oportunidades.jpg); 
+	background-size: cover;
+}
+.productos-image {
+	background-image: url(img/productos-inicio.jpg)
+}
+.empleo-image {
+	 background-image: url(img/empleos.jpg);
+}
+.empresa {
+	font-family: "Cinzel", serif;
+  	font-weight: 800;
+  	font-style: italic;
+}
+.archivo {
+	font-family: "Archivo", sans-serif;
+  	font-style: normal;
+  	background-color: #F2FFE2;
+}
+.carousel-h {
+	height: 90vh;
+}
+.carousel-texto {
+	padding-bottom: 200px ;
+}
+.bienvenida-image {
+	background-image: url(img/bienvenida.jpg);
+}
+.bienvenida {
+	padding: 4rem;
+	color: white;
+}
+.titles {
+	font-size: 2rem;
+	padding: 3rem;
+}
+.inicio {
+	padding: 3rem;
+	text-decoration: none;
+	color: white;
+}
+.inicio:hover {
+	color: yellowgreen;
+}
+.diseño1 {
+	background-color: #DBDA89;
+}
+.productos div a img {
+	width: 200px;
+	margin: 20px;
+}
+.promos div img {
+	width: 400px;
+}
+.lista {
+	list-style: none;
+}
+.slider {
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+}
+.slider-image {
+	background-image: url(img/nosotros.jpg);
+}
+.sustentabilidad {
+	background-image: url('img/sustentabilidad.jpg'); 
+	background-size: cover; 
+	background-position: center;
+}
+.oportunidades {
+	background-image: url('img/oportunidades.jpg'); 
+	background-size: cover; 
+	background-position: center;
+}
+.cuidados {
+	background-image: url('img/cuidados2.jpg'); 
+	background-size: cover; 
+	background-position: center;
+}
+.nosotros-links {
+	text-decoration: none;
+	color: white;
+}
+.nosotros-links:hover {
+	color: yellow;
+}
+
+.opo-color1 {
+	background-color:#A9CC77;
+}
+/*Juego*/
+
+main {
+	border: 2px solid black;
+	margin: 70px auto;
+	padding: 30px;
+}
+
+.section1 button {
+	height: 100px;
+	width: 100px;
+	font-size: 40px;
+}
+.section1 button:hover {
+	cursor: pointer;
+}
+ 
+.back {
+	background-color: rgb(3, 46, 0, 0.2);
+}
+
+.imagen img {
+	width: 80%;
+}
+
+/*Formulario*/
+.formulario {
+	background-color: rgb(255, 180, 20, 0.2);
+}
+footer {
+	background-color: #032E00;
+	color: white;
+}
+footer div a img {
+	width: 50px;
+	margin: 10px;
+}
