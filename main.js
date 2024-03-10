@@ -174,7 +174,7 @@ function destapar (id) {
 
     mostrarMovs.innerHTML = 'Movimientos: 0';
     mostrarAciertos.innerHTML = 'Aciertos: 0';
-    mostrarT.innerHTML = 'Tiempo: 0';
+    mostrarT.innerHTML = 'Tiempo: 60';
   }
 
 
