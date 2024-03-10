@@ -11,7 +11,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,100..900&family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 
-	<title>CFG</title>
+	<title>Juega con CFG</title>
 </head>
 <body class="archivo">
 	<nav class="navbar navbar-expand-md fixed-top" data-bs-theme="dark">
@@ -49,44 +49,67 @@
 	      	</div>
   		</div>
 	</nav>
-		<section class="container-fluid slider slider-image text-light text-center d-flex justify-content-center align-items-center">
-	    	<div>
-	        	<h2 class=" empresa">CFG Multiservicios</h2>
-	        	<h5 class="p-5">Somos una empresa familiar que está dedicada desde hace más de 10 años a la venta de productos descartables, como pañales de adultos, para la higiene y el cuidado personal, como también zaleas y paños de adiestramiento para animales. <br> <br>Tenemos como principal objetivo satisfacer las necesidades de nuestros clientes. <br> Desde ya, muchas gracias por visitarnos. Estamos a su disposición!</h5>
-	    	</div>
-		</section>
-		<section class="container-fluid p-5 historia">
-    		<div>
-    			<a href="historia.html" class="nosotros-links">
-    				<h3 class="empresa">Nuestra Historia</h3>
-        			<p>Desde nuestra fundación, hemos estado comprometidos con la excelencia, la innovación y el cuidado de las personas. Acompáñanos mientras recorremos los momentos clave, los desafíos superados y los logros alcanzados a lo largo de nuestra historia.</p>
-    			</a>
-    		</div>
-		</section>
-		<section class="container-fluid p-5 sustentabilidad">
-    		<div>
-    			<a href="sustentabilidad.html" class="nosotros-links">
-    				<h3 class="empresa">Sustentabilidad</h3>
-        			<p>Estamos comprometidos con la sustentabilidad en cada aspecto de nuestro negocio, tomamos decisiones conscientes que minimizan nuestro impacto ambiental y promueven el bienestar de las comunidades donde operamos.</p>
-    			</a>
-    		</div>
-		</section>
-		<section class="container-fluid p-5 oportunidades">
-    		<div>
-    			<a href="oportunidades.html" class="nosotros-links">
-    				<h3 class="empresa">Oportunidades en CFG</h3>
-        			<p>Creemos en el poder del talento y la dedicación de nuestro equipo, y estamos constantemente en busca de personas apasionadas que quieran formar parte de nuestra familia. Descubre más sobre las diferentes posiciones que ofrecemos y cómo puedes unirte a nosotros para contribuir al crecimiento y éxito de CFG Multiservicios.</p>
-    			</a>
-    		</div>
-		</section>
-		<section class="container-fluid p-5 cuidados">
-    		<div>
-    			<a href="cuidados.html" class="nosotros-links">
-    				<h3 class="empresa">Cuidados de los Grandes</h3>
-        			<p>Nos preocupamos por el bienestar de las personas mayores y queremos brindarte consejos útiles y prácticos para el cuidado de tus seres queridos.</p>
-    			</a>
-    		</div>
-		</section>
+
+	<section class="container text-center">
+		<article class="row d-flex justify-content-center">
+			<div class="col-12">
+				<hr>
+				<h1 class="empresa p-4">¡Juega con Nosotros!</h1>
+				<hr>
+				<p class="m-2">Te invitamos a divertirte un poco junto a CFG.</p>
+			</div>
+			<div class="col-lg-4 col-sm-8 diseño1 p-5 m-2">
+				<h4>Invita a un amigo y compitan para ver quien logra relizar el <em class="empresa">MEMORAMA</em> en tiempo record!</h4>
+			</div>
+			<div class="col-12 m-3">
+				<p>Ambos contaran con 1 MINUTO para lograr decifrar los 8 pares de tarjetas. <br><br> Quien logre hacerlo en menos tiempo GANA! <br><br> <em class="empresa">A JUGAR!</em></p>
+			</div>
+		</article>
+	</section>
+	<main class="container back">
+		<div class="row text-center d-flex justify-content-center">
+			<div class="col-lg-12">
+				<h2 class="empresa">MEMORAMA</h2>
+			</div>
+			<div class="col-lg-12">
+				<article class="section1 d-flex justify-content-center">
+					<table>
+						<tr>
+							<td><button class="imagen" id="0" onclick="destapar(0)"></button></td>
+							<td><button class="imagen" id="1" onclick="destapar(1)"></button></td>
+							<td ><button class="imagen" id="2" onclick="destapar(2)"></button></td>
+							<td ><button class="imagen" id="3" onclick="destapar(3)"></button></td>
+						</tr>
+						<tr>
+							<td><button class="imagen" id="4" onclick="destapar(4)"></button></td>
+							<td><button class="imagen" id="5" onclick="destapar(5)"></button></td>
+							<td><button class="imagen" id="6" onclick="destapar(6)"></button></td>
+							<td><button class="imagen" id="7" onclick="destapar(7)"></button></td>
+						</tr>
+						<tr> 
+							<td><button class="imagen" id="8" onclick="destapar(8)"></button></td>
+							<td><button class="imagen" id="9" onclick="destapar(9)"></button></td>
+							<td><button class="imagen" id="10" onclick="destapar(10)"></button></td>
+							<td><button class="imagen" id="11" onclick="destapar(11)"></button></td>
+						</tr>
+						<tr>
+							<td><button class="imagen" id="12" onclick="destapar(12)"></button> </td>
+							<td><button class="imagen" id="13" onclick="destapar(13)"></button> </td>
+							<td><button class="imagen" id="14" onclick="destapar(14)"></button> </td>
+							<td><button class="imagen" id="15" onclick="destapar(15)"></button></td>
+						</tr>
+					</table>
+				</article>
+			</div>
+			<div class="col-lg-12">
+				<article class="section2">
+					<h3 id="t-restante" class="estadisticas">Tiempo: 60 segundos</h3>
+					<h3 id="movimientos"  class="estadisticas">Movimientos: 0</h3>
+					<h3 id="aciertos"  class="estadisticas"> Aciertos: 0</h3>
+				</article>
+			</div>
+		</div>
+	</main>
 
 
 	<footer class="d-flex justify-content-between p-2 align-items-center">
@@ -97,6 +120,7 @@
 		</div>
 	</footer>
 
+	<script src="main.js"></script>
   	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
